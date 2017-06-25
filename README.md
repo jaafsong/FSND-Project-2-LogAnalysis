@@ -38,9 +38,19 @@ $ psql -d news
 ```
 
 4. Create Views:
-
 ```
-CREATE VIEW countviews_view AS (select title, author, count(*) AS quant FROM articles,log WHERE log.path=CONCAT('/article/',articles.slug) GROUP BY articles.title,articles.author ORDER BY quant DESC);
+CREATE VIEW countviews_view
+AS
+(SELECT
+  title,
+  author,
+  COUNT(*) AS quant
+FROM articles,
+     log
+WHERE log.path = CONCAT('/article/', articles.slug)
+GROUP BY articles.title,
+         articles.author
+ORDER BY quant DESC);
 ```
 
 
