@@ -1,8 +1,13 @@
-# Logs Analysis
+# Logs Analysis: Analyzing a large database using SQL queries and Python. 
+
+### About this project:
+
+The database contains a web server log and newspaper articles to simulate a real-life newspaper site. The task is to build an internal reporting tool and mine the database to discover what articles the readers enjoy the most. The project requires the use of SQL queries to analyze the log data with the help of Python. 
+
 
 ### Required Items:
 
-*[Vagrant](https://www.vagrantup.com/) Virtual environment*  
+*[Vagrant](https://www.vagrantup.com/)*  
 *[VirtualBox](https://www.virtualbox.org/)*  
 [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) SQL data for analysis.  
 [VM FS Configuration file](https://d17h27t6h515a5.cloudfront.net/topher/2017/June/5948287e_fsnd-virtual-machine/fsnd-virtual-machine.zip) This directory will give you FSND-Virtual-Machine file.  
@@ -41,7 +46,7 @@ CREATE VIEW countviews_view AS (select title, author, count(*) AS quant FROM art
 
 ### Results: 
 
-$ python newsdata.py 
+
 
 ```
 
