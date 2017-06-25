@@ -1,11 +1,11 @@
 # Logs Analysis
 
-### Requirements -- Installation of:
+### Required Items:
 
-[Vagrant](https://www.vagrantup.com/) virtual environment
-[VirtualBox](https://www.virtualbox.org/)
-[newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) SQL data for analysis. 
-[VM FS Configuration file](https://d17h27t6h515a5.cloudfront.net/topher/2017/June/5948287e_fsnd-virtual-machine/fsnd-virtual-machine.zip) This directory will give you FSND-Virtual-Machine file. 
+*[Vagrant](https://www.vagrantup.com/) Virtual environment*  
+*[VirtualBox](https://www.virtualbox.org/)*  
+[newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) SQL data for analysis.  
+[VM FS Configuration file](https://d17h27t6h515a5.cloudfront.net/topher/2017/June/5948287e_fsnd-virtual-machine/fsnd-virtual-machine.zip) This directory will give you FSND-Virtual-Machine file.  
 
 ### Installation
 
