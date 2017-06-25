@@ -14,10 +14,10 @@
 Clone into the directory: /FSND-Virtual-Machine/vagrant 
 
 ```
-$ git clone https://github.com/jaafsong/fullstack-nanodegree-logs-analysis.git
+$ git clone https://github.com/jaafsong/FSND-Project-2-LogAnalysis.git
 ```
 
-2. Connecting to the Virtual Machine from /FSND-Virtual-Machine/vagrant.
+2. Connect to the Virtual Machine from /FSND-Virtual-Machine/vagrant.
 
 ```
 $ vagrant up
@@ -42,4 +42,28 @@ CREATE VIEW countviews_view AS (select title, author, count(*) AS quant FROM art
 ### Results: 
 
 $ python newsdata.py 
+
+```
+
+/vagrant$ python newsdb.py 
+
+ * The Top 3 Most Viewed Articles are:
+
+	Candidate is jerk, alleges rival | --> | 338647 views
+	Bears love berries, alleges bear | --> | 253801 views
+	Bad things gone, say good people | --> | 170098 views
+
+ * The Most Popular Article Authors are:
+
+	Ursula La Multa | --> | 507594 views
+	Rudolf von Treppenwitz | --> | 423457 views
+	Anonymous Contributor | --> | 170098 views
+	Markoff Chaney | --> | 84557 views
+
+ * Days Greater than 1% with Request Errors:
+
+	2016-07-17 | --> | 2.263 %
+
+```
+
 
