@@ -1,6 +1,6 @@
-# Logs Analysis: Analyzing a large database using SQL queries and Python. 
+# Logs Analysis: Analyzing a Large Database Using SQL Queries and Python. 
 
-### About this project:
+### About this Project:
 
 The database contains a web server log and newspaper articles to simulate a real-life newspaper site. The task is to build an internal reporting tool and mine the database to discover what articles the readers enjoy the most. The project requires the use of SQL queries to analyze the log data with the help of Python. 
 
