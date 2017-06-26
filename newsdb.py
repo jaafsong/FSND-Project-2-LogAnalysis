@@ -57,7 +57,7 @@ def err_view(query):
     for i in err_results:
         print('\t' + str(i[0]) + ' | --> | ' + str(i[1]) + ' %')
 
-''''''
+if __name__ == "__main__":
 topview_results(topview)
 popview_results(popview)
 err_view(errview)
